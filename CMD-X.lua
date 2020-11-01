@@ -2,7 +2,7 @@
 while not game:IsLoaded() or not game:GetService("CoreGui") or not game:GetService("Players").LocalPlayer or not game:GetService("Players").LocalPlayer.PlayerGui do wait() end
 -- Constraints: -----------------------|
 local ver = "1.9.9"
-local cordCode = "https://github.com/PrescionX/ayyildizrobloxrepo"
+local cordCode = "https://github.com/prescell/ayyildizrobloxrepo"
 ---------------------------------------|
 Parents = {[1] = game:GetService("CoreGui"):FindFirstChild("RobloxGui"), [2] = game:GetService("CoreGui"), [3] = game:GetService("Players").LocalPlayer.PlayerGui}
 if Parents[1] then
@@ -355,7 +355,7 @@ end
 Stand("IMPORTANT","CMD-X's server got deleted by discord. F","Join the new one at:",cordCode,"","I joined!",true)
 repeat wait() until RunDude == true
 
-Stand("Watch out for scams!","A user by the name of xzy#5001 is a known scammer and is targetting CMD-X.","Do not trust the likes of the user or his friends.","discord.gg/exe     github.com/PrescionX","Make sure to spread the word.","Gotcha!",true)
+Stand("Watch out for scams!","A user by the name of xzy#5001 is a known scammer and is targetting CMD-X.","Do not trust the likes of the user or his friends.","discord.gg/exe     github.com/prescell","Make sure to spread the word.","Gotcha!",true)
 repeat wait() until RunDude == true
 
 -- Variables: ------------------------|
@@ -1274,7 +1274,7 @@ output4.TextSize = 16
 output4.TextXAlignment = Enum.TextXAlignment.Left
 output4.TextWrapped = true
 output4.TextTruncate = Enum.TextTruncate.AtEnd
-local Hints = {"Best Admin Lua improved by PrescionX, created by CMD-X Development Team  discord.gg/exe ","Best Admin Lua improved by PrescionX, created by CMD-X Development Team  discord.gg/exe ","Best Admin Lua improved by PrescionX, created by CMD-X Development Team  discord.gg/exe ","Best Admin Lua improved by PrescionX, created by CMD-X Development Team  discord.gg/exe '","Best Admin Lua improved by PrescionX, created by CMD-X Development Team  discord.gg/exe "}
+local Hints = {"Best Admin Lua improved by prescell, discord.gg/exe ","discord.gg/exe ","discord.gg/exe ","discord.gg/exe '","Best Admin Lua improved by PrescionX discord.gg/exe "}
 output4.Text = Hints[math.random(1,#Hints)]
 
 output5.Name = "output5"
