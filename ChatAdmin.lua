@@ -1,4 +1,4 @@
-local StartUpMessage = " I'm not responsible for anything. github.com/PrescionX "
+local StartUpMessage = " I'm not responsible for anything. github.com/prescell "
 
 local Parent
 if game:GetService("CoreGui"):FindFirstChild("RobloxGui") then
@@ -214,7 +214,7 @@ wait()
 
 game.StarterGui:SetCore("SendNotification", {
     Title = "yup. its done";
-    Text = "Script by github.com/PrescionX";
+    Text = "Script by github.com/pres";
     Icon = "rbxassetid://55060807";
     Duration = 7;
 })
